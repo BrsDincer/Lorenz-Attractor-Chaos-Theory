@@ -48,10 +48,10 @@ def InitialFunction()->PROCESS:
                 axs.set_title(f"Probability Plane Event - {init+1}")
             elif init == 1:
                 formatted_output = "{:.2e}".format(proportionalDiffirence_1_2)
-                axs.set_title(f"Probability Plane Event - {init+1}\nProportional Diffirence\nFrom One: {formatted_output}")
+                axs.set_title(f"Probability Plane Event - {init+1}\nProportional Difference\nFrom One: {formatted_output}")
             elif init == 2:
                 formatted_output = "{:.2e}".format(proportionalDiffirence_1_3)
-                axs.set_title(f"Probability Plane Event - {init+1}\nProportional Diffirence\nFrom One: {formatted_output}")
+                axs.set_title(f"Probability Plane Event - {init+1}\nProportional Difference\nFrom One: {formatted_output}")
             else:
                 pass
         else:
